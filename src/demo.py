@@ -8,6 +8,8 @@
 import os
 import torch
 from models import ASTModel
+
+
 # download pretrained model in this directory
 os.environ['TORCH_HOME'] = '../pretrained_models'
 # assume each input spectrogram has 100 time frames
